@@ -1,6 +1,6 @@
 
 --
--- Copyright (C) 2020 Taxin2012
+-- Copyright (C) 2019 Taxin2012
 --
 -- Licensed under the Apache License, Version 2.0 (the "License");
 -- you may not use this file except in compliance with the License.
@@ -23,9 +23,7 @@
 
 
 PLUGIN.GunData[ "tfa_ins2_ak74m" ] = {
-	--Weapon can be Blacklisted and item will be not auto-generated
-	BlackList = false,
-	
+	Desc = "Description",
 	Slot = "primary",
 	Model = "path_to_model_of_item",
 	iconCam = {
@@ -51,5 +49,8 @@ PLUGIN.GunData[ "tfa_ins2_ak74m" ] = {
 	},
 	
 	--Sec == Secondary
-	Sec = {}
+	Sec = {},
+	
+	--Weapon can be Blacklisted and item will be not auto-generated
+	BlackList = false
 }
